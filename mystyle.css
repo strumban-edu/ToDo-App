@@ -1,0 +1,72 @@
+body {
+    background-color: plum;
+    color: white;
+}
+
+.menu_bar {
+    background: black;
+    padding-top: 2%;
+
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    margin-top: calc(50% - 50vw);
+    height: 5vw;
+
+    margin-bottom: 3%;
+}
+
+.menu_bar div {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.account {
+    float: right;
+}
+
+.menu_bar h2 {
+    display: inline-block;
+}
+
+.todo_box {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.todo_box h2 {
+    text-align: center;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.current_box {
+    background-color: green;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.mini_box_1 {
+    background-color: green;
+    grid-column: 3 / 4;
+    grid-row: 1 / 1;
+}
+
+.mini_box_2 {
+    background-color: green;
+    grid-column: 4 / 5;
+    grid-row: 1 / 1;
+}
+
+.goals_box {
+    background-color: navy;
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+}
